@@ -7,6 +7,22 @@
     align-items: center;
   }
 
+.social-icons {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .social-icons li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+.social-icons a {
+      text-decoration: none;
+      color: #333;
+      font-size: 20px;
+    }
+
   .footer-links {
     display: flex;
     gap: 80px;
