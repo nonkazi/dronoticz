@@ -1,0 +1,45 @@
+.about{
+  
+    display: flex;
+    min-height: 835px;
+    overflow: hidden;
+    background-color: #ffff;
+}
+
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .about-content {
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+  .about-content h2{
+    text-align: center;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 38.73px;
+  }
+
+  .about-content p {
+    text-align: justify;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 19.36px;
+    margin-top: 84px;
+    
+  }
+  .about-image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
